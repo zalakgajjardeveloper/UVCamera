@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="normal_font_size">16dp</dimen>
+    <dimen name="header_font_size">20dp</dimen>
+    <dimen name="sub_header_font_size">18dp</dimen>
+</resources>

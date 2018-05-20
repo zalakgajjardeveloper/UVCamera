@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UV Camera</string>
+    <string name="range">Range</string>
+    <string name="color_map">Color Map</string>
+    <string name="more">More >> </string>
+    <string name="apply">Apply</string>
+    <string name="show_chart">Show in Chart</string>
+    <string name="save">Save</string>
+    <string name="result">Result Image</string>
+    <string name="image_difference_warning">Both Images are of different size.</string>
+    <string name="back"><![CDATA[<< Back]]></string>
+</resources>

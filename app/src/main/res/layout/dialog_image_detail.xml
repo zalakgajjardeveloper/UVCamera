@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <com.rey.material.widget.Button
+        android:id="@+id/btnGetGraph"
+        style="@style/Material.Drawable.Ripple.Wave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt2"
+        android:layout_gravity="right"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:text="@string/show_chart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/normal_font_size"
+        android:textStyle="bold"
+        app:rd_enable="true"
+        app:rd_rippleColor="@color/colorPrimaryLight" />
+
+
+    <com.edmodo.cropper.CropImageView
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:transitionName="simple_activity_transition" />
+
+
+    <!--<com.isseiaoki.simplecropview.CropImageView xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:visibility="gone"
+        custom:scv_background_color="@android:color/transparent"
+        custom:scv_crop_mode="square"
+        custom:scv_frame_color="@color/colorAccent"
+        custom:scv_frame_stroke_weight="1dp"
+        custom:scv_guide_show_mode="not_show"
+        custom:scv_handle_show_mode="not_show"
+        custom:scv_min_frame_size="25dp"
+        custom:scv_overlay_color="@android:color/transparent"
+        custom:scv_touch_padding="8dp"
+        tools:ignore="UnusedAttribute" />
+-->
+    <!--<ImageView
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="simple_activity_transition"
+        tools:ignore="UnusedAttribute" />
+-->
+
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="normal_font_size">28dp</dimen>
+    <dimen name="header_font_size">40dp</dimen>
+    <dimen name="sub_header_font_size">32dp</dimen>
+</resources>
